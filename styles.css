@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	background-color: #00e5ff;
+	color: #004d56;
+}
+
+#ta{
+	height: 50px;
+	width: 115px;
+	background-color: #5bedff;
+	font-size: 9px;
+}
+
+span{
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4.5px;
+	display: inline-block;
+	height: 15.5px;
+	width: 15px;
+}
+
+.active{
+	background-color: #89f1ff;
+}
+
+#Backspace{
+	width: 40px;
+}
+
+#Tab{
+	width: 40px;
+}
+
+#CapsLock{
+	width: 32px;
+}
+
+#Enter{
+	width: 44px;
+}
+
+
+.shiftr{
+	width: 37px;
+}
+
+
+.shiftl{
+	width: 60px;
+}
