@@ -4,16 +4,35 @@ document.body.addEventListener('keyup', upKey)
 function downKey(e) {
 	console.log(e);
 	// console.log(e.key);
-	var id = e.key;
+	var id;
+	if (e.key === "Shift") {
+		console.log("sbigigh")
+		id = e.code;
+		//e.key = e.code;
+	}
+	else{
+		id = e.key;
+	}
 	var element = document.getElementById(id);
 	// console.log(element)
 	element.classList.add('active');
+	document.getElementById('hello').play();
 }
 
 function upKey(e) {
 	console.log("upKey")
 	console.log(e)
-	var id = e.key;
+	var id;
+	if (e.key === "Shift") {
+		console.log("sbigigh")
+		id = e.code;
+		//e.key = e.code;
+	}
+	else{
+		id = e.key;
+	}
 	var element = document.getElementById(id);
 	element.classList.remove('active');
+	document.getElementById('hello').pause();
 }
+

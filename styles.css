@@ -1,13 +1,10 @@
 body{
 	text-align: center;
-	background-color: #00e5ff;
-	color: #004d56;
 }
 
 #ta{
 	height: 50px;
 	width: 115px;
-	background-color: #5bedff;
 	font-size: 9px;
 }
 
@@ -22,7 +19,7 @@ span{
 }
 
 .active{
-	background-color: #89f1ff;
+	text-shadow: 0 0 10px magenta;
 }
 
 #Backspace{
