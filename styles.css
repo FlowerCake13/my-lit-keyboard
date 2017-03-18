@@ -1,5 +1,6 @@
 body{
 	text-align: center;
+	background-image: url('assets/cake.jpg');
 }
 
 #ta{
@@ -16,6 +17,9 @@ span{
 	display: inline-block;
 	height: 15.5px;
 	width: 15px;
+}
+.key{
+	background-color: white;
 }
 
 .active{
@@ -41,9 +45,11 @@ span{
 
 .shiftr{
 	width: 37px;
+	background-color: white;
 }
 
 
 .shiftl{
 	width: 60px;
+	background-color: white;
 }
